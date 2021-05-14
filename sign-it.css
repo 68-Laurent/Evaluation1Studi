@@ -112,3 +112,12 @@ main {
               inset 2px 2px 3px rgba(0, 0, 0, .6);
               outline: none;
 }
+@media screen and (min-width: 400px) and (max-width: 993px) {
+	section , .favorite {
+    display: block;
+    position: relative;
+    margin: auto;
+	margin-left: 15px;
+  
+	}
+}
