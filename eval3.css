@@ -5,14 +5,16 @@ ul > li > img {display: inline;
 	border:1px solid gray ;
 	border-radius: 1px;
 }
-body
-{ background: black;
+body {background: black;
 	background-image: url("Image/fond.jpg") ;
 	background-attachment: fixed;
 	background-position:50% 100%;
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-image:  0.5;
+}
+.container {
+	position: fixed;
 }
 nav  {display: none;
 	margin-top: 50px;
@@ -24,10 +26,12 @@ img {
 	border: 1px solid black;
 	border-radius: 100px;
 } 
-.navbar-toggler {
+.navbar-toggler {position: fixed;
 	background: blanchedalmond;
 }
-
+.collapse .navbar-collapse {
+	position: fixed;
+}
 section {
 	opacity: 0.8;
 	text-align: right;
@@ -81,5 +85,4 @@ aside {
   height: 180px;
   border: 2px solid yellow;
   border-radius: 15px ;
-
 }
