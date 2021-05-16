@@ -82,7 +82,32 @@ aside {
   display: block;
   margin-left: 22px;
   width: 650px;
-  height: 180px;
+  height: auto;
   border: 2px solid yellow;
   border-radius: 15px ;
+}
+@media screen and (min-width: 400px) and (max-width: 993px) {
+	main {
+	margin-top: 150px;
+	font-size: 16px;
+	margin-left: 15px;
+	width: 300px;
+  height: auto;
+	}
+}
+@media screen and (min-width: 400px) and (max-width: 993px) {
+	ul {
+		font-size: 16px;
+		list-style-type: none;
+	  margin-left: 15px;
+    height: auto;
+	}
+}
+@media screen and (min-width: 400px) and (max-width: 993px) {
+	aside {display: block;
+		font-size: 12px;
+	  margin-left:auto;
+		width: auto;
+    height: auto;
+	}
 }
