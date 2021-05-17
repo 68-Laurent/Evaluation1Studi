@@ -24,7 +24,13 @@ img {
 	border-radius: 100px;
 } 
 .navbar-toggler {
-	background: blanchedalmond;
+	
+	border: 1px solid black;
+	border-radius: 15px;
+	opacity: 0.5;
+	margin: -10px;
+	padding: auto;
+
 }
 
 section {
@@ -67,20 +73,19 @@ p , h1 , h2 {
 ul 
 {
 	display: flexbox contents;
-	margin-left: 250px;
+	margin-left: 10px;
 	width: 450px;
 	height: auto;	
 	color: white;
-	font-size: 28px;
+	font-size: 18px;
 }
 
- footer  {margin: auto;
-	 background-color:black;
+footer  {
+	margin: auto;
 	color: white;
 	text-align: center;
 	width: 400px;
 	height: 50px;
 	padding: 10px;
-	border: 1px solid black ;
-	border-radius:25px;
+	
 }

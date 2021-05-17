@@ -111,3 +111,12 @@ aside {
     height: auto;
 	}
 }
+footer  {
+	margin: auto;
+	color: white;
+	text-align: center;
+	width: 400px;
+	height: 50px;
+	padding: 10px;
+	
+}
