@@ -17,7 +17,7 @@ section  {
   margin-left: 150px;
   background-color: rgb(11, 11, 14);
   border:none;
-  padding: 15px 25px;
+  padding: 15px 5px;
   font-size: 15px; 
   border-radius: 50px;
   text-transform: uppercase;
@@ -25,7 +25,7 @@ section  {
   box-shadow: 0 1px purple;
   opacity: 0.8;
   outline: none;
-  width: 330px;
+  width: 400px;
   height: auto;
 
 }
@@ -63,7 +63,7 @@ main {
       height: auto;
       border: 1px solid purple;
       border-radius:20px;
-      margin:auto ;
+      margin: auto;
       color:white;
       text-align: center;
       background: rgb(11, 11, 14);
@@ -112,12 +112,11 @@ main {
               inset 2px 2px 3px rgba(0, 0, 0, .6);
               outline: none;
 }
-@media screen and (min-width: 400px) and (max-width: 993px) {
-	section , .favorite {
-    display: block;
+@media screen and (min-width: 400px) and (max-width: 993px)  {
+	section  {
     position: relative;
     margin: auto;
 	margin-left: 15px;
-  
+
 	}
 }

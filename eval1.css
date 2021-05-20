@@ -4,6 +4,12 @@ ul > li > img {display: inline;
 	border:1px solid gray ;
 	border-radius: 1px;
 }
+ul > li {display: inline-block;
+	position: relative;
+	width: 520px;
+	height: auto;
+	font-size: 16px;
+}
 body
 { background: black;
 	background-image: url("Image/fond.jpg") ;
