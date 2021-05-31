@@ -1,9 +1,10 @@
 body {
-     background: black;
-      background-image: url("Image/fond.jpg");
-	    background-attachment: fixed;
-	    background-position:50% 100%;
-	    background-repeat: no-repeat;
+    background-image: url("Image/Fontaines\ Gir.jpg") ;
+    position: initial;
+    background-attachment: fixed;
+    background-position:50% 100%;
+    background-repeat: no-repeat;
+    background-image:  0.5;
      }
 img { border-radius: 37.5px;}
 main {

@@ -3,7 +3,7 @@ ul {
 }
 body
 { background: black;
-	background-image: url("Image/fond.jpg") ;
+	background-image: url("Image/Fontaines\ Gir.jpg") ;
 	background-attachment: fixed;
 	background-position:50% 100%;
 	background-repeat: no-repeat;
@@ -26,7 +26,7 @@ img {
 } 
 .header {
 display: flex;
-width: 400px;
+width: 350px;
 margin: auto;
 padding-top: 5px;
 text-align: center;
@@ -87,16 +87,7 @@ section {
 	border: 1px solid white;
 	border-radius: 25px 25px 25px 25px;
 }
-aside 
- { 
-	 position: fixed;
-	 border: 1px solid #fff;
-	 border-radius: 25px;
-	 color: #000;
-   font-size: 1.2rem;
-	 width: 200px;
-	 height: 200px;
- }
+
 p , h1 , h2 {display: flex;
 	padding-top: 10px;
 	text-align: center;
@@ -108,13 +99,28 @@ p , h1 , h2 {display: flex;
 	color :white;
 	font-weight: bold;
 }
-footer  {
-	margin: auto;
+footer  
+	{ 
+  background: tomato;
 	color: white;
 	text-align: center;
-	width: 400px;
-	height: 50px;
-	padding: 10px;
+	height: auto;
+	padding-left: 10px;
+}
+.footer__list {
+	list-style-type: none;
+	display: flex;
+  position: relative;
+	justify-content: space-around;
+	width: 400PX;
+	margin: auto;
+}
+.footer__link {
+	color: white;
+}
+svg { 
+	width: 30px;
+	height: 30px;
 }
 @media not screen and (max-width: 1200px)  {
 	p , h1 , h2  {
@@ -161,8 +167,9 @@ footer  {
     cursor: pointer;
   }
 }
-@media screen and  (max-width:500px){aside
-	{
-		position: inherit;
-	}
+@media screen and  (max-width:500px){
+	aside > .aside
+	   { 
+	    	position: inherit;
+  	}
 }
