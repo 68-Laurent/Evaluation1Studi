@@ -49,3 +49,11 @@ main {
               inset 2px 2px 3px rgba(0, 0, 0, .6);
               outline: none;
 }
+.submit
+{
+  border-radius: 5px;
+}
+textarea/*pour bloquer la taille du cadre du texte*/
+{
+  resize: none;
+}

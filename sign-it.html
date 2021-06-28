@@ -28,14 +28,17 @@
   <br>
     <div class="form-floating">  <!--Mon Formulaire d'inscription-->
       <label for="floatingInput"></label>
-      <input type="email" class="form-control" id="floatingInput" placeholder="Courriel"><br> 
+      <input name="email" type="email" class="form-control" id="floatingInput" placeholder="Courriel" required ><br> 
     </div>
     <br>
     <div class="form-floating">
       <label for="floatingPassword"></label>
-      <input type="password" class="form-control" id="floatingPassword" placeholder="Mot de passe">   
+      <input name="password" type="password" class="form-control" id="Pass" placeholder="Mot de passe" minlength="8"required>   
     </div>
     <br>
+    <div class="submit">
+      <input type="submit" value="Envoyer">
+    </div>
     <div class="checkbox mb-3">
       <label>
         <input type="checkbox" value="remember-me">
@@ -43,10 +46,18 @@
       </label><!--ce souvenir de ma 1ere visite-->
     </div>
     <br>
+    <div>
+      <label for="age">Votre Age</label>
+      <select name="age" id="age">
+        <option value="0-9">0-9</option>
+        <option value="10-19">10-19</option>
+        <option value="20-39">20-39</option>
+        <option value="40-59">40-59</option>
+        <option value="60 et +">60 et +</option>
+      </select>
+    </div>
     <br>
-    <button class="favorite styled"
-        type="button">
-      <a href="#">Se connecter</a></button><br><br>
+    <br>
       <button class="favorite styled"
             type="button"> 
          <a href="file:///C:/Users/lau13/Desktop/Eval/Eval-Guest.html">
